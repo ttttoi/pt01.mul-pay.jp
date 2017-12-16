@@ -6,8 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta http-equiv="Content-style-Type" content="text/html; charset=Shift_JIS" />
 	<title>コンビニ決済入力　Kanatta決済サービス</title>
-
 	<link href="{$CSSPATH}/common.css" rel="stylesheet" type="text/css" />
+	<link href="https://kanatta-lady.jp/bootstrap/css/elusive-webfont.css" rel="stylesheet" type="text/css" />
 	<link href="https://kanatta-lady.jp/css/pay_form.css" rel="stylesheet" type="text/css" />
 <link href="http://kanatta-lady.jp/favicon.ico" type="image/x-icon" rel="icon"/><link href="http://kanatta-lady.jp/favicon.ico" type="image/x-icon" rel="shortcut icon"/>
 
@@ -54,26 +54,36 @@
 <div class="icon-bar" href="http://kanatta-lady.jp/backed_projects/add/23/icon-bar" onclick="toggle_sub_menu();">
             <span class="el-icon-lines"></span>
         </div>
-<div id="sub_menu" style="display: none;">
-            <div>
+<div id="sub_menu">
+            <div class="btn-pink">
                 <a href="http://kanatta-lady.jp/projects">
                     <span class="el-icon-search"></span>
-                    探す
+                    プロジェクトを探す
                 </a>
             </div>
-            <div>
+            <div class="btn-pink">
                 <a href="http://kanatta-lady.jp/make">
                     <span class="el-icon-file-new"></span>
-                    作る
+                    自分で作る
                 </a>
             </div>
-            <div>
+            <div class="btn-pink">
                 <a href="http://kanatta-lady.jp/about">
                     <span class="el-icon-question"></span>
-                    Kanattaとは
+                    Kanatta?
                 </a>
             </div>
-                    </div>
+                        <div class="btn-pink">
+              <a href="http://kanatta-lady.jp/question">
+                  <span class="el-icon-comment-alt"></span> よくある質問
+              </a>
+            </div>
+            <div class="btn-pink">
+              <a href="http://kanatta-lady.jp/contact">
+                  <span class="el-icon-envelope"></span> お問い合わせ
+              </a>
+            </div>
+        </div>
     </div>
 <div class="wrapper">
 <div class="bodyinner">
