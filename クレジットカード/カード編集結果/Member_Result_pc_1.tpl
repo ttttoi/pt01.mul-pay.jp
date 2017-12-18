@@ -179,7 +179,7 @@
 				<p class="control">
 				{insert name="input_returnParams"}
 				<span class="submit">
-					<input type="submit" value="i‚Ş" />
+					<input type="submit" value="Ÿ‚Ö" />
 				</span>
 				</p>
 				<p class="back-btn"><a href="#" onclick="javascript:window.history.back(-1);return false;">–ß‚é</a></p>
