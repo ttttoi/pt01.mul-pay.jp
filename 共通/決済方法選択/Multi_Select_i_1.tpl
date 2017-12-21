@@ -187,6 +187,9 @@
 {* ++支払方法の選択肢をカスタマイズしたい場合は、上記の"radio_paymentType"行をコメントアウトし、以下をご利用ください  *}
 						<ul>
 							<li>
+								<input type="radio" name="PayType" value="bitcoin" id="paytype_bitcoin"/><label for="paytype_bitcoin">ビットコイン</label>
+							</li>
+							<li>
 								<input type="radio" name="PayType" value="credit" id="paytype_credit"/><label for="paytype_credit">クレジットカード</label>
 							</li>
 							<li>
