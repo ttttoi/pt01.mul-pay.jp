@@ -187,9 +187,6 @@
 {* ++支払方法の選択肢をカスタマイズしたい場合は、上記の"radio_paymentType"行をコメントアウトし、以下をご利用ください  *}
 						<ul>
 							<li>
-								<input type="radio" name="PayType" value="bitcoin" id="paytype_bitcoin"/><label for="paytype_bitcoin">ビットコイン</label>
-							</li>
-							<li>
 								<input type="radio" name="PayType" value="credit" id="paytype_credit"/><label for="paytype_credit">クレジットカード</label>
 							</li>
 							<li>
@@ -198,6 +195,9 @@
 							<li>
 								<input type="radio" name="PayType" value="virtualaccount" id="paytype_virtualaccount"/><label for="paytype_virtualaccount">銀行振込(バーチャル口座)</label>
 								<span>※銀行振込の場合は必要事項を記入頂く必要はございません。</span>
+							</li>
+							<li>
+								<input type="radio" name="PayType" value="bitcoin" id="paytype_bitcoin"/><label for="paytype_bitcoin">ビットコイン</label>
 							</li>
 {*
 							<li>
@@ -278,26 +278,27 @@
 		<div class="about_payment">
     <h3>お読みください</h3>
     <dl>
-        <dt>ご確認①</dt>
-        <dd>Kanattaはプロジェクトオーナーの能力やプロジェクトの実行を保証するものではありません。
-プロジェクトの実行やリターンの発送（履行）などは、全てプロジェクトオーナーの責任のもと行われます。</dd>
-        <dt>ご確認② - ファンクラブ、All in</dt>
+        <dt>【ご確認①】</dt>
+        <dd>Kanattaは起案者の能力やプロジェクトの実行を保証するものではありません。
+プロジェクトの実行やリターンの発送（履行）などは、全て起案者の責任のもと行われます。</dd>
+        <dt>【ご確認②】</dt>
+        <dt>All in、ファンクラブ</dt>
         <dd>目標到達に関わらず、プロジェクト支援を行った時点で支援金の決済が行われます。</dd>
-        <dt>ご確認② - All or Nothing</dt>
+        <dt>All or Nothing</dt>
         <dd>募集終了日時の23:59までに支援総額が目標金額に達しない場合は、プロジェクト不成立となり支援金の決済はされません。また、リターンも発送（履行）されません。</dd>
-        <dt>SORRY</dt>
+        <dt>【SORRY】</dt>
         <dd>Order from oversea is unavailable and in preparation now.</dd>
     </dl>
     <h3>選べる4つのお支払い方法</h3>
     <dl>
-        <dt>ビットコイン決済</dt>
-        <dd>お持ちのビットコインで支援金の決済が可能です。<br>ビットコインを入手するには、ビットコインのウォレットを用意する必要があります。<br><a href="https://coincheck.com/ja/documents/about" target="_blank">（ビットコインの概要・入手方法について）</a></dd>
         <dt>クレジットカード払い</dt>
         <dd>有効期限が残り100日以上のクレジットカード（VISA/MASTER）でご利用いただけます。</dd>
         <dt>コンビニ払い</dt>
-        <dd>全国の主要なコンビニエンスストア（セブンイレブンを除く）でご利用いただけます。<br>ご利用は、支援金額が25万円以下の場合で支援日時が募集終了日から2日前の18時までに限られます。</dd>
+        <dd>全国の主要なコンビニエンスストア（セブンイレブンを除く）でご利用いただけます。<br>ご利用は、支援金額が30万円以下の場合で支援日時が募集終了日から2日前の18時までに限られます。</dd>
         <dt>銀行振込</dt>
         <dd>全国の金融機関ATMまたはネットバンキングにてご利用いただけます。<br>ご利用は、支援金額が90万円以下の場合で支援日時が募集終了日から2日前の18時までに限られます。</dd>
+        <dt>ビットコイン決済</dt>
+        <dd>お持ちのビットコインで支援金の決済が可能です。<br>ビットコインを入手するには、ビットコインのウォレットを用意する必要があります。<br><a href="https://coincheck.com/ja/documents/about" target="_blank">（ビットコインの概要・入手方法について）</a></dd>
     </dl>
 </div>
 
