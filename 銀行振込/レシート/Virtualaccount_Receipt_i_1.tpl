@@ -9,7 +9,7 @@
 	<link href="https://kanatta-lady.jp/bootstrap/css/elusive-webfont.css" rel="stylesheet" type="text/css" />
 	<link href="https://kanatta-lady.jp/css/pay_form.css" rel="stylesheet" type="text/css" />
 <link href="http://kanatta-lady.jp/favicon.ico" type="image/x-icon" rel="icon"/><link href="http://kanatta-lady.jp/favicon.ico" type="image/x-icon" rel="shortcut icon"/>
-	<title>銀行振込(バーチャル口座)レシートテンプレートサンプル　ＰＧマルチペイメントサービス</title>
+	<title>銀行振込レシートテンプレートサンプル　ＰＧマルチペイメントサービス</title>
 
 	{literal}
 	<script type="text/javascript">
@@ -101,7 +101,7 @@
 		<form action="{$RetURL|htmlspecialchars}" method="post" onsubmit="return blockForm()">
 			<p>{insert name="input_returnParams"}</p>
 
-			<p class="txt_recipt">銀行振込(バーチャル口座)のお支払い申し込みが完了しました。</p>
+			<p class="txt_recipt">銀行振込のお支払い申し込みが完了しました。</p>
 			<p class="txt_recipt">振込期限までに以下の口座に振込みを行ってください。</p>
 			<p class="txt_recipt">振込みの際は、振込依頼人欄に振込コード＋お客様の氏名を入力してください。</p>
 

@@ -193,12 +193,12 @@
 								<input type="radio" name="PayType" value="cvs" id="paytype_cvs"/><label for="paytype_cvs">コンビニエンスストア</label>
 							</li>
 							<li>
-								<input type="radio" name="PayType" value="virtualaccount" id="paytype_virtualaccount"/><label for="paytype_virtualaccount">銀行振込(バーチャル口座)</label>
+								<input type="radio" name="PayType" value="virtualaccount" id="paytype_virtualaccount"/><label for="paytype_virtualaccount">銀行振込</label>
 								<span>※銀行振込の場合は必要事項を記入頂く必要はございません。</span>
 							</li>
-							<li>
+							<!--<li>
 								<input type="radio" name="PayType" value="bitcoin" id="paytype_bitcoin"/><label for="paytype_bitcoin">ビットコイン</label>
-							</li>
+							</li>-->
 {*
 							<li>
 								<input type="radio" name="PayType" value="edy" id="paytype_edy"/><label for="paytype_edy">楽天Edy</label>
@@ -292,7 +292,7 @@
     <h3>選べる4つのお支払い方法</h3>
     <dl>
         <dt>クレジットカード払い</dt>
-        <dd>有効期限が残り100日以上のクレジットカード（VISA/MASTER）でご利用いただけます。</dd>
+        <dd>有効期限が残り100日以上のクレジットカードでご利用いただけます。</dd>
         <dt>コンビニ払い</dt>
         <dd>全国の主要なコンビニエンスストア（セブンイレブンを除く）でご利用いただけます。<br>ご利用は、支援金額が30万円以下の場合で支援日時が募集終了日から2日前の18時までに限られます。</dd>
         <dt>銀行振込</dt>
