@@ -289,7 +289,7 @@
         <dt>【SORRY】</dt>
         <dd>Order from oversea is unavailable and in preparation now.</dd>
     </dl>
-    <h3>選べる4つのお支払い方法</h3>
+    <h3>選べる3つのお支払い方法</h3>
     <dl>
         <dt>クレジットカード払い</dt>
         <dd>有効期限が残り100日以上のクレジットカードでご利用いただけます。</dd>
